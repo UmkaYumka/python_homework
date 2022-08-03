@@ -11,6 +11,6 @@ while num != 0:
         elif my_list[0] < num:
             my_list.insert(0, num)
         elif my_list[i] > num and my_list[i + 1] < num:
-            my_list.insert(i + 1, num)
+            my_list.insert(i + 1)
     print(f"список {my_list}")
     num = int(input("Введите число "))
