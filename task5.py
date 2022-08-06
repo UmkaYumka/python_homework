@@ -1,6 +1,6 @@
 my_list = [9, 8, 7, 6, 4]
 print(f"Рейтинг {my_list}")
-num = int(input("Введите номер (0 является выходом из программы )"))
+num = float(input("Введите номер (0 является выходом из программы )"))
 while num != 0:
     for i in range(len(my_list)):
         if my_list[i] == num:
